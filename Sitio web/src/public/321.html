@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <title>Asistencia en Tiempo Real</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--CABECERA-->
+    <header>
+        <img src="./img/upalt.jpg" alt="Logo Chakis">
+    </header>
+    <!--Visualizacion de datos-->
+    <main>
+        <form action="#">
+            <div class="itemform">
+                <label for="name">Estudiante: </label>
+                <h1 id="Asistencia" class="display-0 p-4"></h1>
+            </div>
+            <div class="itemform">
+                <label for="name">Hora de entrada: </label>
+                <h1 id="Hora" class="display-0 p-4"></h1>
+            </div>
+        </form>
+    </main>
+    <!--Pie de pagina-->
+    <footer>
+        <!--<img src="./img/happy.gif" alt="Happygif">-->
+        <p>DkK&ZA</p>
+    </footer>
+    <!--Código JS-->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="./main copy.js"></script>
+
+</body>
+</html>

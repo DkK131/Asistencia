@@ -1,0 +1,27 @@
+body{
+    background-color: #19b7d3fb;
+    font-family: 'Poppins',sans-serif;
+}
+header, footer{
+    text-align: center;
+    width: 200px;
+    margin: 30px auto 0px auto;
+}
+main{
+    text-align: center;
+    width: 350px;
+    margin: 30px auto 0px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-size: 23px;
+}
+label{
+    display:block;
+    margin-bottom: 10;
+}
+footer{
+    font-size: 10px;
+}
